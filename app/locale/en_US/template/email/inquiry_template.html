@@ -1,0 +1,58 @@
+<!--@subject This is the subject line of the email! @-->
+<div style="font:normal;">
+    
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">
+      <p style="f">
+         Hi Admin,<br/><br/>
+                  {{var firstName}} wants to inquiry cart products. As information given below:<br/><br/>
+    </p> 
+    <tr>
+      <td align="center" valign="top">
+          <table cellpadding="0" cellspacing="0" border="0" align="left" class="container-table" >
+            <tr>
+              <td style="width: 20%">
+             Name:
+              </td>
+               <td>
+             {{var firstName}}
+              </td>
+            </tr>
+            <tr>
+               <td style="width: 20%">
+             Product Id:
+              </td>
+               <td>
+             {{var productId}}
+              </td>
+            </tr>
+            <tr>
+               <td style="width: 20%">
+             Product Name:
+              </td>
+               <td>
+            {{var productName}}
+              </td>
+            </tr>
+            <tr>
+               <td style="width: 20%">
+            Product SKU:
+              </td>
+               <td>
+            {{var productSku}}
+              </td>
+            </tr>
+            <tr>
+               <td style="width: 20%">
+            Message:
+              </td>
+               <td>
+            {{var message}}
+              </td>
+            </tr>
+          </table>
+           
+      </td>
+    </tr>
+  </table><br/>
+Thank you!
+</div>

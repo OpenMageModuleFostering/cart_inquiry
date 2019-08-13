@@ -1,0 +1,10 @@
+<layout version="0.1.0">
+<checkout_cart_index translate="label">
+        <reference name="content">
+                <block type="core/template" name="inquiry">
+                    <action method="setTemplate"><value>inquiry/inquiry.phtml</value></action>
+                </block>
+        </reference>
+ </checkout_cart_index>
+</layout>
+ 

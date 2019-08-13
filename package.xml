@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<package>
+    <name>cart_inquiry</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Cart Inquiry extension useful to submit inquiry about cart products to store owner.</summary>
+    <description>Cart Inquiry extension provides the facility to your user can ask question and submit inquiry about cart products. Cart inquiry extension useful for B2B websites and to send the cart summary to store owner. It also saves the inquiry in the database and owner can see all inquiry into admin panel.&#xD;
+&#xD;
+Cart inquiry extension features:&#xD;
+&#xD;
+1. Customers can inquiry from cart page.&#xD;
+&#xD;
+2. Once they submit the cart inquiry form, customer will receive success message.&#xD;
+&#xD;
+3. This information will be saved into database, an email will also be sent to the store owner.&#xD;
+&#xD;
+4. Admin can see all the inquiry in the admin panel.&#xD;
+&#xD;
+5. All inquires are gathered into new tab Cart Inquiry.&#xD;
+&#xD;
+6. From setting tab you can enable/disable extension.&#xD;
+&#xD;
+7. You have option to configured email from setting tab for getting inquiries.&#xD;
+&#xD;
+8. You can set title for cart inquiry form from setting tab. &#xD;
+&#xD;
+Support Email: manish@ranosys.com&#xD;
+&#xD;
+</description>
+    <notes>After installing extension Follow below points:&#xD;
+1. Refresh all cache from admin panel.&#xD;
+2. Enable extension from setting tab&#xD;
+3. Configured email and title.&#xD;
+4. See results on cart page</notes>
+    <authors><author><name>Manish Mittal</name><user>ranomanish</user><email>manish@ranosys.com</email></author><author><name>Hanu Gupta</name><user>ranohanu</user><email>hanu@ranosys.com</email></author><author><name>Vivek Chaturvedi</name><user>ranoVivek</user><email>vivek@ranosys.com</email></author></authors>
+    <date>2015-03-23</date>
+    <time>17:17:04</time>
+    <contents><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="inquiry.xml" hash="2e771abf63301133d470cec8d1c58d49"/><file name="local.xml" hash="16dc8d0a4e7e224cb6e47f92baa1aee0"/></dir><dir name="template"><dir name="inquiry"><file name="inquiry.phtml" hash="2d021f428679542cb3f1351d984fd306"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ranosys_Inquiry.xml" hash="1f12b2bb10c991f5da5d8f391fa3b795"/></dir></target><target name="magelocale"><dir name="en_US"><dir name="template"><dir name="email"><file name="inquiry_template.html" hash="78238ff907c5d822485d138fd3204a46"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
