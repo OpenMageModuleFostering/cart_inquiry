@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>cart_inquiry</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license>GPL</license>
     <channel>community</channel>
@@ -34,11 +34,12 @@ Support Email: manish@ranosys.com&#xD;
 1. Refresh all cache from admin panel.&#xD;
 2. Enable extension from setting tab&#xD;
 3. Configured email and title.&#xD;
-4. See results on cart page</notes>
-    <authors><author><name>Manish Mittal</name><user>ranomanish</user><email>manish@ranosys.com</email></author><author><name>Hanu Gupta</name><user>ranohanu</user><email>hanu@ranosys.com</email></author><author><name>Vivek Chaturvedi</name><user>ranoVivek</user><email>vivek@ranosys.com</email></author></authors>
-    <date>2015-03-23</date>
-    <time>17:17:04</time>
-    <contents><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="inquiry.xml" hash="2e771abf63301133d470cec8d1c58d49"/><file name="local.xml" hash="16dc8d0a4e7e224cb6e47f92baa1aee0"/></dir><dir name="template"><dir name="inquiry"><file name="inquiry.phtml" hash="2d021f428679542cb3f1351d984fd306"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ranosys_Inquiry.xml" hash="1f12b2bb10c991f5da5d8f391fa3b795"/></dir></target><target name="magelocale"><dir name="en_US"><dir name="template"><dir name="email"><file name="inquiry_template.html" hash="78238ff907c5d822485d138fd3204a46"/></dir></dir></dir></target></contents>
+4. See results on cart page&#xD;
+5. For custom theme place files at specific path.</notes>
+    <authors><author><name>Manish Mittal</name><user>ranosysmanish</user><email>manish@ranosys.com</email></author><author><name>Hanu Gupta</name><user>hanu</user><email>hanu@ranosys.com</email></author><author><name>Vivek Chaturvedi</name><user>ranovivek</user><email>vivek@ranosys.com</email></author></authors>
+    <date>2015-04-09</date>
+    <time>18:15:41</time>
+    <contents><target name="magecommunity"><dir name="Ranosys"><dir name="Inquiry"><dir name="Block"><dir name="Adminhtml"><dir name="Inquiry"><dir name="Edit"><file name="Form.php" hash="84050d92abb9a1b0c1e9d11752e28ead"/><dir name="Tab"><file name="Form.php" hash="bc2b5b0fb69fc9ede7a34dbe3cacd74a"/></dir><file name="Tabs.php" hash="c94d16ceb1cf389749c6c5e02f8801f8"/></dir><file name="Edit.php" hash="516b50058262d7bb16d16df23cb733d9"/><file name="Grid.php" hash="f8668c2a14621b86b0443a5030032897"/></dir><file name="Inquiry.php" hash="252911329e2a7e192a5db1fdd53f7979"/></dir></dir><dir name="Helper"><file name="Data.php" hash="7cd99f4ac52e4980194c039b1d79598c"/><file name="Data.php~" hash="b7cfd638af670216c7bdc4a1a2db600d"/></dir><dir name="Model"><file name="Information.php~" hash="d41d8cd98f00b204e9800998ecf8427e"/><file name="Inquiry.php" hash="9301d8ba19e6af3e57dc08c637d796a9"/><dir name="Mysql4"><file name="Information.php~" hash="37a0865a62f25f684a6bd92e870e556d"/><dir name="Inquiry"><file name="Collection.php" hash="2f39db1876e424125bd4f871baf82b55"/><file name="Collection.php~" hash="1d5e42748311bb1adac7c602c8657b1f"/></dir><file name="Inquiry.php" hash="da71478527a4bfb5b2f0fad0943bdf81"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="InquiryController.php" hash="33ef8b072a239ca776c77a2e8edc5b58"/></dir><file name="IndexController.php" hash="608da48bc9f5050f8b9dd5a622bbf60c"/><file name="IndexController.php~" hash="9854866ff055d53565d2acd4b4890d72"/></dir><dir name="etc"><file name="config.xml" hash="165557a9aa596e1cc30fe506e2a60b03"/><file name="system.xml" hash="f6e56ee2839de36f6bb14600dc02b36c"/></dir><dir name="sql"><dir name="inquiry_setup"><file name="mysql4-install-0.1.0.php" hash="f7b2c447a8e88a74c22edd0f406547e4"/></dir><file name="mysql4-install-0.1.0.php~" hash="e041c85ffc560a173e24375a6f62d930"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="inquiry.xml" hash="2e771abf63301133d470cec8d1c58d49"/><file name="local.xml" hash="16dc8d0a4e7e224cb6e47f92baa1aee0"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ranosys_Inquiry.xml" hash="1f12b2bb10c991f5da5d8f391fa3b795"/></dir></target><target name="magelocale"><dir name="en_US"><dir name="template"><dir name="email"><file name="inquiry_template.html" hash="78238ff907c5d822485d138fd3204a46"/></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
